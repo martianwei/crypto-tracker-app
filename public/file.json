@@ -1,0 +1,481 @@
+{
+  "variables": {
+    "inboundDepth": 1,
+    "outboundDepth": 3,
+    "limit": 30,
+    "txLimit": 30,
+    "offset": 0,
+    "network": "ethereum",
+    "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+    "currency": "ETH",
+    "symbol": "ETH",
+    "from": "2022-08-18",
+    "till": "2022-08-21",
+    "dateFormat": "%Y-%m-%d",
+    "mode": "flow",
+    "amount_limit": {
+      "min": null,
+      "max": null
+    }
+  },
+  "data": {
+    "inbound": [
+      {
+        "sender": {
+          "id": 1,
+          "network": "ethereum",
+          "address": "0xba6a991028af7ae3dff32a4b8ab42ef189dc74ea",
+          "annotation": [],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": null,
+          "last_outbound": 1660880009,
+          "labels": [],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": ""
+        },
+        "receiver": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "tx_hash": "0x6f2fc6962a0dd342ec061c455af9e70408ed037451a78f14e00c368f521f3e10",
+        "amount": 17.81,
+        "timestamp": 1660790082,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/18 10:34:42"
+      },
+      {
+        "sender": {
+          "id": 1,
+          "network": "ethereum",
+          "address": "0xba6a991028af7ae3dff32a4b8ab42ef189dc74ea",
+          "annotation": [],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": null,
+          "last_outbound": 1660880009,
+          "labels": [],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": ""
+        },
+        "receiver": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "tx_hash": "0x3f0fd6ca6397859ec4a0b8659ce6aad33487d52a6ca2bc5d002310cd552ecada",
+        "amount": 8.91,
+        "timestamp": 1660880009,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/19 11:33:29"
+      },
+      {
+        "sender": {
+          "id": 3,
+          "network": "ethereum",
+          "address": "0xa17b43061bba5509c159425e4d4cddb1c8761302",
+          "annotation": [],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": null,
+          "last_outbound": 1660827412,
+          "labels": [],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": ""
+        },
+        "receiver": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "tx_hash": "0x9b132b85fbc7a8594bfe2a0d8a388250ddb22355264df4b203647db8886fd7d0",
+        "amount": 0.522,
+        "timestamp": 1660827412,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/18 20:56:52"
+      },
+      {
+        "sender": {
+          "id": 5,
+          "network": "ethereum",
+          "address": "0x35978f90a7e6913afec88e90c5a685a5e25b83dd",
+          "annotation": [],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": null,
+          "last_outbound": 1660837768,
+          "labels": [],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": ""
+        },
+        "receiver": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "tx_hash": "0x28bbe158a4415df9095aa7369e113a20bf53df774f8b007517f49376f90af816",
+        "amount": 1.4,
+        "timestamp": 1660837768,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/18 23:49:28"
+      }
+    ],
+    "outbound": [
+      {
+        "sender": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "receiver": {
+          "id": 6,
+          "network": "ethereum",
+          "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+          "annotation": [
+            "1inch V3",
+            " 1inch.exchange",
+            "1inch v3: Aggregation Router",
+            "cryptomaniacs.eth"
+          ],
+          "type": 4,
+          "smartContract": {
+            "contractType": "Generic",
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790235,
+          "last_outbound": null,
+          "labels": [
+            "1inch V3",
+            " 1inch.exchange",
+            "1inch v3: Aggregation Router",
+            "cryptomaniacs.eth"
+          ],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": "1inch V3\n 1inch.exchange\n1inch v3: Aggregation Router\ncryptomaniacs.eth"
+        },
+        "tx_hash": "0x0b65bbb0558d2b8809492a2a76961a455718e6fb6997d8edbf53e19825e55724",
+        "amount": 17.81,
+        "timestamp": 1660790235,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/18 10:37:15"
+      },
+      {
+        "sender": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "receiver": {
+          "id": 6,
+          "network": "ethereum",
+          "address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+          "annotation": [
+            "1inch V3",
+            " 1inch.exchange",
+            "1inch v3: Aggregation Router",
+            "cryptomaniacs.eth"
+          ],
+          "type": 4,
+          "smartContract": {
+            "contractType": "Generic",
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790235,
+          "last_outbound": null,
+          "labels": [
+            "1inch V3",
+            " 1inch.exchange",
+            "1inch v3: Aggregation Router",
+            "cryptomaniacs.eth"
+          ],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": "1inch V3\n 1inch.exchange\n1inch v3: Aggregation Router\ncryptomaniacs.eth"
+        },
+        "tx_hash": "0x24c9a49d36217712bad87a968003f6f7e4ebd4df010fe2efe3c6f202c22f4493",
+        "amount": 8.91,
+        "timestamp": 1660880272,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/19 11:37:52"
+      },
+      {
+        "sender": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "receiver": {
+          "id": 28295,
+          "network": "ethereum",
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "annotation": [],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790467,
+          "last_outbound": null,
+          "labels": [],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": ""
+        },
+        "tx_hash": "0xcafd40bb4e5178db4b2ae0465d48de5efddce8400587aeb3d7251f5a2072bb8a",
+        "amount": 0,
+        "timestamp": 1660880715,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/19 11:45:15"
+      },
+      {
+        "sender": {
+          "id": 2,
+          "network": "ethereum",
+          "address": "0x79e55e6c1b384b3ae222294d3bd6bafd689dc160",
+          "annotation": [
+            "root"
+          ],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790082,
+          "last_outbound": 1660880715,
+          "labels": [
+            "root"
+          ],
+          "inbound_queried": 1,
+          "outbound_queried": 1,
+          "translated_labels": "Target Wallet"
+        },
+        "receiver": {
+          "id": 28295,
+          "network": "ethereum",
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "annotation": [],
+          "type": 0,
+          "smartContract": {
+            "contractType": null,
+            "currency": {
+              "name": "-",
+              "symbol": "-"
+            }
+          },
+          "first_inbound": 1660790467,
+          "last_outbound": null,
+          "labels": [],
+          "inbound_queried": false,
+          "outbound_queried": false,
+          "translated_labels": ""
+        },
+        "tx_hash": "0x99ad640945d587edbf5dbb71fe506535eb7c06e974dd80e041563250b80d76ba",
+        "amount": 0,
+        "timestamp": 1660790467,
+        "currency": {
+          "symbol": "ETH"
+        },
+        "network": "ethereum",
+        "tx_time": "2022/08/18 10:41:07"
+      }
+    ],
+    "comments": [],
+    "comment_links": []
+  }
+}
