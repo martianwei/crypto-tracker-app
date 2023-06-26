@@ -1,8 +1,16 @@
 <template>
   <div class="track-view">
     <svg class="box" :style="{ height: boxHeight + 'px' }" v-if="jsonData">
-
+      <!-- 添加时间轴箭头定义 -->
+      <defs>
+        <marker id="arrowhead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8"
+          orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" />
+        </marker>
+      </defs>
+      <!-- 添加时间轴 -->
       <line class="timeline" :x1="500" :y1="30" :x2="1800" :y2="30" />
+      <!-- 其他元素保持不变 -->
       <g v-for="(address, index) in addresses" :key="index">
         <text class="address-text" :x="0" :y="50 + index * 200">{{ address }}</text>
         <line class="timeline-item" :x1="500" :y1="50 + index * 200" :x2="1800" :y2="50 + index * 200" />
@@ -12,7 +20,7 @@
           時間: {{ txn.date }} 價格: {{ txn.amount }} {{ txn.symbol }}
         </text>
         <line class="txn-line" :x1="500 + calculateX(txn.timestamp)" :y1="50 + (txn.sender - 1) * 200"
-          :x2="500 + calculateX(txn.timestamp)" :y2="50 + (txn.receiver - 1) * 200" />
+          :x2="500 + calculateX(txn.timestamp)" :y2="50 + (txn.receiver - 1) * 200" marker-end="url(#arrowhead)" />
       </g>
     </svg>
   </div>
